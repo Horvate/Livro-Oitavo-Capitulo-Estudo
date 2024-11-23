@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="exerc-7.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="background">
+  <h1>Veterinaria Avenida</h1>
+  <h2>Por favor, insira os dados necessários para calcular o desconto para o cliente.</h2>
+  <form>
+    <div>
+      <input type="number" id="inValor" class="inputNumber" required placeholder="Valor da Vacina">
+      <p class="inputRadio">Possui Convênio:
+        <input type="radio" name="convenio" id="inSim" class="" checked> Sim
+        <input type="radio" name="convenio" id="inNao" class=""> Não
+      </p>
+    </div>
+    <div>
+      <select id="inSelect">
+        <option value="0" disabled selected>Convênio</option>
+        <option value="1">Amigos dos Animais</option>
+        <option value="2">Saúde Animal</option>
+      </select>
+    </div>
+    <div>
+    <input type="submit" class="btnSubmit" value="Calcular Desconto"/>
+    </div>
+  </form>
+  <h3 id="inH3"></h3>
+  <p class="styleP"><br>Informe os dados do cliente, incluindo o valor da consulta. Indique também se o cliente possui convênio. Caso possua, selecione uma das opções: Amigos dos Animais ou Saúde Animal. Logo em seguida clique no botão: Calcular Desconto.</p>
+  <script src="exerc-7.js"></script>
+</body>
+  
+</html>

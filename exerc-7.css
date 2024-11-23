@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin: 50px 50px;
+  border-bottom: solid;
+  opacity: 0.6;
+}
+
+h2 {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+h3 {
+  
+  margin: 50px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  border-style: solid;
+  border-radius: 7px;
+  width: 70%;
+  text-align: center;
+  display: none;
+  opacity: 0.6;
+
+}
+
+div {
+  margin: 10px 50px 10px 10px;
+  text-align: center;
+}
+
+select {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px;
+  color: gray;
+  opacity: 0.6;
+  border-radius: 7px;
+  width: 50%;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.styleP {
+  margin: 50px 50px;
+  font-size: 14px;
+  border-top: solid 1px;
+  opacity: 0.6;
+}
+.inputNumber {
+ margin: 10px;
+ padding: 10px;
+ width: 50px 10px;
+ height: 30px;
+ border-radius: 7px;
+ border: none;
+ opacity: 0.6;
+ outline: none;
+}
+
+
+/* gradiente usado para background do body */
+.background {
+  height: 90vh;
+  width: 100vw;
+  background: linear-gradient(45deg, black, gray);
+  background-size: 300% 300%;
+  animation: color 10s ease-in-out infinite;
+  
+}
+
+@keyframes color {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.btnSubmit {
+  margin: 10px;
+  
+  width: 30%;
+  height: 30px;
+  border-radius: 7px;
+  opacity: 0.6;
+  color: black;
+  border: none;
+  transition: 2s;
+  cursor: pointer;
+}
+
+.btnSubmit:hover{opacity: 1;}
